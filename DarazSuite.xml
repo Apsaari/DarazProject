@@ -1,0 +1,12 @@
+<suite name="Suite1" verbose="1" parallel="methods"
+       configfailurepolicy="continue" thread-count="1">
+
+ <test name="Daraz_Suite">
+		<parameter name="username" value="daraztest001@mailinator.com" />
+		<parameter name="password" value="1qaz2wsx@E" />
+         <classes>
+            <class name="com.qe.daraz.TestObjects.DarazTest"></class>
+			
+         </classes>
+     </test>
+     </suite>
